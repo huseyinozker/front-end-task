@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Analyzer</title>
+	<link rel="stylesheet" type="text/css" href="myCSS.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="col-lg-3 col-md-3 col-sm-1"><p></p>
+        
+    </section>
+    <section id="container" class="col-lg-6 col-md-6 col-sm-10">
+        <textarea id="TextArea" class="center"></textarea>
+        <button id="AnalyzeBtn" class="center">Analyze!</button>
+        <section id="outputContainer" class="center">
+            <p id="wordCounterTxt">Word Count:</p>
+            <span class="line"></span>
+            <p id="letterCounterTxt" >Number of Letters:</p>
+            <span class="line"></span>
+            <p id="longestWordTxt" >Longest Word:</p>
+            <span class="line"></span>
+            <p id="averageLengthTxt" >Average Word Length:</p>
+            <span class="line"></span>
+            <p id="durationTxt">Reading Duration in Seconds: </p>
+            <span class="line"></span>
+            <p id="medWordLenTxt">Median Word Length: </p>
+            <span class="line"></span>
+            <p id="medWordTxt">Median Word When Sorted: <br><br> </p>
+            <span class="line"></span>
+            <p id="mostComTxt">Most Common Word: <br><br></p>
+            <span class="line"></span>
+            <p id="langTxt">Language: <span>*works better with long sentences</span> </p>
+            <span class="line"></span>
+        </section>
+    </section>
+    <section class="col-lg-3 col-md-3 col-sm-1 "><p></p></section>
+<script type="text/javascript" src="myJS.js"></script>
+</body>
+</html>
