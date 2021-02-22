@@ -1,2 +1,2 @@
 # front-end-task
-Front-end-task for Otsimo Intern Application
+Front-end-task for Otsimo Intern Application.
