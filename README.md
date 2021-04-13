@@ -1,2 +1,2 @@
-# front-end-task
-Front-end-task for Otsimo Intern Application.
+# JS Web Application
+Simple Javascript application about typing.
